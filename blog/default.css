@@ -1,0 +1,30 @@
+
+h1{
+	font-size: 60px;
+	background-color: #353f40;
+	color: #e1e2e5;
+	border: 5em;
+	margin-top: -10px;
+	width: 150%;
+	margin-left: -9px;
+}
+span{
+	word-spacing: 5px;
+}
+h2{
+	margin-top: -40px;
+	word-spacing: 30px;
+	background-color: #7d7e7f;
+	width: 150%;
+	margin-left: -9px;
+}
+
+a{
+	text-decoration:none;
+	color: black;
+
+}
+body{
+	background-color:#353f40;
+}
+
