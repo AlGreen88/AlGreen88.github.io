@@ -1,0 +1,33 @@
+
+h2{
+	margin-top: -50px;
+	color: #e1e2e5;
+	word-spacing: normal;
+	margin-left: 40px;
+
+}
+
+h4{
+	margin-left: 40px;
+	color: #e1e2e5;
+	font-size: 20px;
+}
+section{
+	color: #e1e2e5;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: left;
+}
+#previous{
+	text-align: left;
+	color: #e1e2e5;
+	
+
+}
+#next{
+	text-align: right;
+	color: #e1e2e5
+}
+footer{
+	font-size: 20px;
+}
