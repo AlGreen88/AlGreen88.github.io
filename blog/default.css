@@ -1,0 +1,45 @@
+
+#header{
+	font-size: 60px;
+	background-color: #353f40;
+	color: #e1e2e5;
+	border: 5em;
+	margin-top: -50px;
+	width: 150%;
+	margin-left: -9px;
+}
+#name{
+	font-size: 60px;
+}
+
+
+#navbar{
+	margin-top: -60px;
+	word-spacing: 30px;
+	background-color: #7d7e7f;
+	width: 150%;
+	margin-left: -9px;
+	border: 1px solid black;
+
+}
+#about{
+	word-spacing: normal;
+}
+li{
+	font-size: 25px;
+	display: inline;
+}
+
+a{
+	text-decoration:none;
+	color: black;
+
+}
+a:hover{
+	text-decoration: underline;
+	font-weight: bold;
+}
+body{
+	background-color:#353f40;
+}
+
