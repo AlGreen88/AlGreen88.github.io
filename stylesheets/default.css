@@ -42,4 +42,46 @@ a:hover{
 body{
 	background-color:#353f40;
 }
+#twitter{
+	height: 15px;
+	width: 15px;
+}
+#github{
+	height: 15px;
+	width: 15px;
+	margin-left: 5px;
+}
+#linkedin{
+	height: 16px;
+	width: 16px;
+	margin-left: 5px;
+	margin-top: 3px;
+}
+#googleplus{
+	height: 16px;
+	width: 16px;
+	margin-left: 5px;
+}
+#profile{
+	height: 300px;
+	width: 300px;
+	border: 1px solid black;
+	margin-left: -8px;
+}
+#geninfo{
+	display: inline;
+}
+#footer{
+	border: 1px solid black;
+	background-color: #7d7e7f;
+	width: 150%;
+	margin-left: -9px;
+	margin-top: 180px;
+	height: 10%;
+	font-size: 60px;
+	
+}
+#bottom{
+	background-color: #353f40;
+}
 
