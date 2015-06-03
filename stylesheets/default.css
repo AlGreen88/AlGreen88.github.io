@@ -1,6 +1,4 @@
-body{
-	width: 900px;
-}
+
 #header{
 	font-size: 60px;
 	background-color: #353f40;
@@ -42,6 +40,8 @@ a:hover{
 	font-weight: bold;
 }
 body{
+	font-family: Arial;
+	width: 900px;
 	background-color:#353f40;
 }
 #twitter{
