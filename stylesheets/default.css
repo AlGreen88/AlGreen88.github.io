@@ -1,4 +1,6 @@
-
+body{
+	width: 900px;
+}
 #header{
 	font-size: 60px;
 	background-color: #353f40;
