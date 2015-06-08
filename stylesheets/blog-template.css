@@ -23,13 +23,17 @@ section{
 #previous{
 	text-align: left;
 	color: #e1e2e5;
+	display: inline;
 	
 
 }
 #next{
 	text-align: right;
-	color: #e1e2e5
+	color: #e1e2e5;
+	display: inline;
+	margin-left: 650px;
+
 }
-footer{
+footer {
 	font-size: 20px;
 }
