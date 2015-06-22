@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+  <title>Ruby Classes</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-template.css">
+</head>
+
+<main>
+  <div id="header">
+        <ul>
+            <li><span id="name">Ruby Classes</span></li>
+        </ul>
+    </div>
+  <h2><div>Having Fun in Class</div></h2>
+  <h4>Sunday June 21, 2015</h4>
+
+  <section>
+    <p>
+    This week there was a lot of focus on creating and using classes in Ruby.  In Ruby classes are objects (Just like everything else) that you may want to use often but give small changes to.  With this we can create instances of a class and call the methods we give it while making the variations we would like to make. To give an example, I will create a class the gives you a recommendation for food, based on your preference.
+    </p>
+    <p>
+    class Food_Suggestion
+
+      def initialize(pref)
+
+      raise ArgumentError.new("I won't recommend any of that") unless pref == "Japanese" || pref == "Chinese" || pref == "American" ------creates an arguement error unless a right food type is given.
+
+       @pref = pref ----- creates an instance variable for the food preference
+
+      end
+
+      def_suggestion  ------ creates a method that the class can call
+
+        if @pref == "Japanese"
+        return "You should try tonkatsu!"
+        elsif @pref == "Chinese"
+        return "You should try beef noodle soup!"  ----- gives a suggestion based on input
+        else @ pref == "Amerian"
+        return "Just get Mcdonalds!"
+        end
+
+      end
+
+    end
+    </p>
+    <p>
+    In this example we can see that the class Food_Suggestion will perform the same actions, but change the specific output based on the input.  It is easy to see that classes are great to use when you might need to do something many times but each time there is something that needs to change or be different based on what's given.
+    </p>
+
+      <!-- copy and paste as many sections as you want to add paragraphs -->
+  </section>
+  <footer><a href="http://algreen88.github.io/blog/t4-enumerable-methods.html"><div id="previous">Previous Post</div></a> <a href="#"><div id= "next">Next Post</div></a></footer>
+</main>
