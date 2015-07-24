@@ -2,8 +2,9 @@
 /*Custom Style*/
 @import url(http://fonts.googleapis.com/css?family=Montserrat+Alternates:400,700);
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
+@import url(http://fonts.googleapis.com/css?family=Muli)
 body {
-	font-family:'Montserrat',sans-serif;
+	font-family:'Muli';
 }
 .container.nomargin {
 	margin:0;
@@ -19,7 +20,7 @@ body {
 }
 .title {
 	font-size:6em;
-	font-family:'Lato',sans-serif;
+	font-family:'Muli';
 	display:block;
 }
 hr.star {
@@ -83,10 +84,123 @@ hr.star:after {
 #header a:hover {
 
 }
-
-
+/* title effect */
+.para:before {
+  content: '[';
+  position: center;
+  left: -30px;
+  line-height: 40px;
+}
+.para:after {
+  content: ']';
+  position: center;
+  right: -30px;
+  line-height: 40px;
+}
+.para:after,
+.para:before {
+  color: #3498db;
+  font-size: 30px;
+  animation: 2s linear 0s normal none infinite opacity;
+  -webkit-animation: 2s ease-out 0s normal none infinite opacity;
+  -moz-animation: 2s ease-out 0s normal none infinite opacity;
+  -o-animation: 2s ease-out 0s normal none infinite opacity;
+}
+@-webkit-keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes change {
+  0% {
+    margin-top: 0;
+  }
+  15% {
+    margin-top: 0;
+  }
+  25% {
+    margin-top: -40px;
+  }
+  40% {
+    margin-top: -40px;
+  }
+  50% {
+    margin-top: -80px;
+  }
+  65% {
+    margin-top: -80px;
+  }
+  75% {
+    margin-top: -40px;
+  }
+  85% {
+    margin-top: -40px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+@keyframes change {
+  0% {
+    margin-top: 0;
+  }
+  15% {
+    margin-top: 0;
+  }
+  25% {
+    margin-top: -40px;
+  }
+  40% {
+    margin-top: -40px;
+  }
+  50% {
+    margin-top: -80px;
+  }
+  65% {
+    margin-top: -80px;
+  }
+  75% {
+    margin-top: -40px;
+  }
+  85% {
+    margin-top: -40px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+#training{
+	display:inline;
+}
+/* About Me */
+#bio{
+	background: #95a5a6;
+	border: 2px solid black;
+	border-radius: 15px;
+	color: #ecf0f1;
+	font-family: 'Muli';
+	
+}
 
 /* Work Styling */
+
 #blog {
 	
 }
@@ -98,10 +212,15 @@ hr.star:after {
 }
 
 #blog .blog-item {
+	font-family: 'Muli';
+	font-weight: bold;
 
 }
 
 /*Hover effect*/
+#blog .blog-item :hover {
+	text-shadow: 0 0 3px #3498db;
+}
 #blog .blog-item img {
 	border-radius: 15px;
 	margin: 20px 0;
@@ -110,11 +229,17 @@ hr.star:after {
 
 }
 
-#blog .blog-item img:hover {
+#blog .blog-item img:hover,
+#blog .blog-item img:hover ~ .desc{
 	margin: 5px 0;
 	opacity: .7;
+	text-shadow: 0 0 3px #FF0000;
+
 	
 
+}
+#blog .blog-item img:hover ~ .desc{
+	text-shadow: 0 0 3px #3498db;	
 }
 
 
