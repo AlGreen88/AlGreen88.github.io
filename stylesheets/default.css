@@ -87,26 +87,32 @@ hr.star:after {
 
 
 /* Work Styling */
-#work {
+#blog {
 	
 }
-#work img {
+#blog img {
 
 }
-#work hr.star:after {
+#blog hr.star:after {
 
 }
 
-#work .portfolio-item {
+#blog .blog-item {
 
 }
 
 /*Hover effect*/
-#work .portfolio-item img {
+#blog .blog-item img {
+	border-radius: 15px;
+	margin: 20px 0;
+	opacity: 1;
+	transition: all .3s;
 
 }
 
-#work .portfolio-item img:hover {
+#blog .blog-item img:hover {
+	margin: 5px 0;
+	opacity: .7;
 	
 
 }
@@ -135,12 +141,13 @@ hr.star:after {
 	display:inline-block;
 	width:50px;
 	height:50px;
-	border:3px solid #34495e;
+	border:3px solid #3498db;
 	border-radius:100%;
 	text-align:center;
 	font-size:25px;
 	font-weight:900;
 	line-height:45px;
+	color: black;
 }
 
 #contact .btn-social i {
@@ -151,9 +158,12 @@ hr.star:after {
 
 }
 #contact .socials a {
+	transition: all .5s;
 
 }
 #contact .socials>li:hover a {
+	background: #3498db;
+	border-color: black;
 
 }
 #contact .socials>li:hover i {
@@ -161,11 +171,13 @@ hr.star:after {
 }
 
 #contact .btn-primary {
+	background: #3498db;
 	
 }
 
 #contact .btn-primary:focus,
 #contact .btn-primary:hover{
+	background: #2980b9;
 	
 }
 
