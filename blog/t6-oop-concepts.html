@@ -31,7 +31,7 @@
     }
    </style>
 
-    <title>Title | Subtitle </title>
+    <title>Object Oriented | Design </title>
 
 
 
@@ -79,14 +79,14 @@
 
                 
 
-                 <h1>Blog Title</h1>
+                 <h1>Object Oriented Design</h1>
                  <hr>
                  
-                 <h2>Subtitle</h2>
-                 <h2>Date</h2>
+                 <h2>Scoping</h2>
+                 <h2>July 5th, 2015</h2>
 
 
-                 <!-- <span class='icon'>
+                 <!--<span class='icon'>
 
                   <span class='page-scroll'><a href="#work"><i class="fa fa-arrow-circle-down fa-5x"></i></a></span>
 
@@ -103,13 +103,25 @@
       <!-- portfolio section -->
       <section id="content" class='text-center'>
       <p>
-      Version control allows us to track changes and modifications we have made to our code over time.  This is beneficial because not only does it allow us to easily monitor the changes being made, it allows us to go back to previous working versions of our code. This can come in handy if a change is made and results in buggy or non working code.
+      In getting into Ruby I had no idea variable scoping was important(or even existed really!). But over the course of the past few weeks I've had to learn quickly that scoping is thing, and is quite important. In this post I'll go into what your options are with scoping, and when you should use each.
     </p>
     <p>
-        Git helps us track our changes through the processs of staging and commiting changes. A commit can be viewed simply as a savepoint, or taking a snapshot of our current code. We are able to go back to previous commits if need be, and are able to monitor exactly what was deleted, changed, modified, or inserted. Also, we can add messages to each commit that allows us to easily remember what each commit is doing.
+      For the Different types of scoping we have global(begins with $), instance(begins with @), local(begins with a-z), constant(begins with A-Z), or class (begins with @@). 
     </p>
     <p>
-    Using Github to store code is very benefical.  It allows us to share our code for others to view, modify, and give feedback on. It also allows us to work on a team remotely.  Team members can pull from Github, modify and then push back to Github.  This allows teams to work on the same thing without stepping on eachother's toes. In short, storing your code on Github allows for feedback, and creates an good environment for collaboration.
+      Local variables are pretty straight forward - they can be accessed locally within the code they are declared. So - local variable can't be accessed outside of the method or loop in which they are created.
+    </p>
+    <p>
+      Global variables are also very straightforward - they can be accessed anywhere within the Ruby program in which they are created.
+    </p>
+    <p>
+      Class variables are variables that are shared among all instances of a class - this means that if something changes this variable - it will change it for all instances of the class you have.
+    </p>
+    <p>
+      Instance variables are like class variables except that they are specific to each individual instance of a class - if you change the value in one instance - it isn't going to change the value in all instances - just that one instance.
+    </p>
+    <p>
+      Constant variables are just that - constant.  They shouldn't be changed once they are created.  Constant variables declared outside of a class or variable are considered global - while those created within a class etc. are available throughout whatever they are created within.
     </p>
 
         
