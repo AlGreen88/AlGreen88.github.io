@@ -68,6 +68,7 @@ hr.star:after {
 
 /* Header Styling */
 #header {
+  font-size: 30px;
 	
 }
 #header .icon {
